@@ -458,7 +458,7 @@ def mainloop():
             if level <= 3:
                 player.shoot()
             elif level <=7:
-                enemy_vel = 2.4
+                enemy_vel = (2.4)
                 cool_down_counter = 0
                 player.shoot2()
                 cool_down_counter = 1
